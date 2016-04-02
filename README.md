@@ -16,32 +16,26 @@ Debian/Ubuntu/Mint: `sudo apt-get install pianobar`
 
 ---
 
-`nload` - Graphical Interface for Upload/Download
+`nload` - Graphical Interface for Upload/Download (use right or left arrow to navigate between interfaces)
 
 Mac OS X: `brew install nload`
 
 Debian/Ubuntu/Mint: `sudo apt-get install nload`
 
-`nload` (use right or left arrow to navigate between interfaces)
-
 ---
 
-slurm - Graphical Interface for Upload/Download
+`slurm` - Graphical Interface for Upload/Download (e.g. `slurm -i en3`)
 
 Mac OS X: `brew install slurm`
 
 Debian/Ubuntu/Mint: `sudo apt-get install slurm`
 
-`slurm -i en3`
-
 ---
 
-`iftop` - per IP connection traffic monitoring
+`iftop` - per IP connection traffic monitoring (apparently requires sudo priviliges)
 
 Mac OS X: `brew install iftop`
 Debian/Ubuntu/Mint: `sudo apt-get install iftop`
-
-`sudo iftop` (apparently requires sudo priviliges)
 
 ---
 
@@ -49,10 +43,7 @@ Debian/Ubuntu/Mint: `sudo apt-get install iftop`
 
 ---
 
-`finger` {CITYNAME}`@graph.no` - Weather forecast
-
-`finger newyork@graph.no`
-`finger los_angeles@graph.no`
+`finger` {CITYNAME}`@graph.no` - Weather forecast (e.g. `finger newyork@graph.no`)
 
 International names come from http://fil.nrk.no/yr/viktigestader/verda.txt
 
@@ -62,13 +53,11 @@ International names come from http://fil.nrk.no/yr/viktigestader/verda.txt
 
 ---
 
-wget {LINK}
+`wget` {LINK} - Download files from anywhere (e.g. `wget http://ftp.gnu.org/gnu/wget/wget-1.17.tar.xz`)
 
 Mac OS X: `brew install wget`
 
 Debian/Ubuntu/Mint: `sudo apt-get install wget`
-
-`wget http://ftp.gnu.org/gnu/wget/wget-1.17.tar.xz`
 
 ---
 
@@ -101,17 +90,13 @@ Mac OS X: `brew install tree`
 
 Debian/Ubuntu/Mint: `sudo apt-get install tree`
 
-`tree`
-
 ---
 
-`pandoc` - conversion between text-based file formats (e.g. LaTeX, HTML, DOCX, Markdown, EPUB, PDF, etc)
+`pandoc` - conversion between text-based file formats (e.g. LaTeX, HTML, DOCX, Markdown, EPUB, PDF, etc: `pandoc SOME_FILE.txt -w latex -o SOME_FILE.pdf`)
 
 Mac OS X: `brew install pandoc`
 
 Debian/Ubuntu/Mint: `sudo apt-get install pandoc`
-
-`pandoc SOME_FILE.txt -w latex -o SOME_FILE.pdf
 
 ---
 
@@ -179,7 +164,7 @@ CMD` | grep `{STRING} - grep filters output based on a search string
 
 ---
 
-moreutils - collection of commandline utilities for different use cases
+*moreutils* - collection of commandline utilities for different use cases
 
 `brew install moreutils`
 
