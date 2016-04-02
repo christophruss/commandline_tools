@@ -1,5 +1,17 @@
 # Great Command Line Tools
 
+### Task Management
+
+---
+
+`task`warrior - feature rich task manager (with optional server)
+
+Mac OS X: `brew install task taskd` (`taskd` is the optional server)
+
+Debian/Ubuntu/Mint: `sudo apt-get install task`
+
+---
+
 ### Music
 
 ---
@@ -9,6 +21,14 @@
 Mac OS X: `brew install pianobar`
 
 Debian/Ubuntu/Mint: `sudo apt-get install pianobar`
+
+---
+
+`cmus` - music player with UI inside the commandline
+
+Mac OS X: `brew install cmus`
+
+Debian/Ubuntu/Mint: `sudo apt-get install cmus`
 
 ---
 
@@ -124,11 +144,19 @@ Debian/Ubuntu/Mint: `sudo apt-get install vim`
 
 ---
 
-`pv` show pipe throughput progress (`wget` for piping)
+`utimer` - Stopwatch / Countdown / Timer
+
+Mac OS X: `brew install utimer`
+
+Debian/Ubuntu/Mint: `sudo apt-get install utimer`
 
 ---
 
-`dtrx` do the right extraction 
+`pv` - show pipe throughput progress (`wget` for piping)
+
+---
+
+`dtrx` - do the right extraction 
 
 ---
 
